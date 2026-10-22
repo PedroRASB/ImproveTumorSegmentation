@@ -1,0 +1,9 @@
+# Tested with Python 3.11 and a CUDA GPU. Install PyTorch with CUDA first (https://pytorch.org), then: pip install -r requirements.txt
+torch>=2.1            # tested 2.13.0+cu126
+nnInteractive==2.5.1
+nibabel>=5.0          # tested 5.4.2
+numpy>=1.24           # tested 2.4.4
+pandas>=2.0           # tested 3.0.5
+scipy>=1.10           # tested 1.17.1
+scikit-image>=0.21    # tested 0.26.0
+connected-components-3d>=3.12   # tested 4.0.0 (import cc3d)
