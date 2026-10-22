@@ -1,7 +1,9 @@
-# Lesion mask refinement with nnInteractive (vote)
+# Lesion mask refinement with nnInteractive and Report-based refinement
 
-Refines tumour masks (e.g. R-Super pseudo-masks) with [nnInteractive](https://github.com/MIC-DKFZ/nnInteractive), a
-promptable 3D segmentation model, without any manual input.
+Refines tumour masks with [nnInteractive](https://github.com/MIC-DKFZ/nnInteractive), a
+promptable 3D segmentation model, and with the report-based mask refinement from R-Super and Merlin Plus.
+
+In summary: the code takes a tumor mask (per-voxel tumor probabilities), and adjusts it to match the tumor size, number, and locations in radiology reports. Then, it applies nnInteractive to improve tumor borders.
 
 ## How it works
 
