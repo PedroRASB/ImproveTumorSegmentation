@@ -7,3 +7,5 @@ pandas>=2.0           # tested 3.0.5
 scipy>=1.10           # tested 1.17.1
 scikit-image>=0.21    # tested 0.26.0
 connected-components-3d>=3.12   # tested 4.0.0 (import cc3d)
+PyYAML>=6.0
+tqdm>=4.0
